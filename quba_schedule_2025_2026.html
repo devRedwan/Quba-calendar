@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quba Weekend Intensive — Sep 2025 to Jun 2026</title>
+<style>
+  :root{
+    --bg:#0f172a; /* slate-900 */
+    --card:#111827; /* gray-900 */
+    --muted:#94a3b8; /* slate-400 */
+    --text:#e5e7eb; /* gray-200 */
+    --accent:#22c55e; /* green-500 */
+    --holiday:#60a5fa; /* blue-400 */
+    --off:#f59e0b; /* amber-500 */
+    --milestone:#e11d48; /* rose-600 */
+    --class:#10b981; /* emerald-500 */
+    --ring: rgba(255,255,255,.08);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+    color:var(--text); background: radial-gradient(1200px 800px at 100% -100%, rgba(34,197,94,.06), transparent),
+                        radial-gradient(900px 600px at -50% 0%, rgba(96,165,250,.05), transparent),
+                        var(--bg);
+    line-height:1.5;
+  }
+  header{
+    position:sticky; top:0; z-index:10;
+    backdrop-filter: blur(10px);
+    background: rgba(15,23,42,.7);
+    border-bottom:1px solid var(--ring);
+  }
+  .container{max-width:1100px; margin:0 auto; padding:24px}
+  h1{
+    margin:0; font-size: clamp(22px, 3.2vw, 36px);
+    letter-spacing:.3px;
+  }
+  .subtitle{color:var(--muted); margin-top:8px}
+  .legend{display:flex; gap:12px; flex-wrap:wrap; margin-top:16px}
+  .legend span{
+    display:inline-flex; align-items:center; gap:8px; font-size:14px; color:var(--muted);
+    background:rgba(255,255,255,.03); padding:6px 10px; border:1px solid var(--ring); border-radius:999px;
+  }
+  .dot{width:10px;height:10px;border-radius:50%}
+  .grid{
+    display:grid; gap:16px; grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    padding:24px;
+  }
+  .card{
+    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+    border:1px solid var(--ring); border-radius:16px; padding:16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  }
+  .month{font-weight:700; letter-spacing:.4px; color:#fff; margin-bottom:10px}
+  .item{display:flex; gap:12px; padding:10px; border-radius:12px; align-items:flex-start;
+        border:1px dashed transparent;}
+  .item:hover{border-color:var(--ring); background:rgba(255,255,255,.02)}
+  .date{
+    min-width:78px; font-variant-numeric: tabular-nums; color:var(--muted);
+    opacity:.9
+  }
+  .title{flex:1}
+  .badge{font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--ring);}
+  .badge-class{background: rgba(16,185,129,.12); color:#d1fae5; border-color: rgba(16,185,129,.35)}
+  .badge-holiday{background: rgba(96,165,250,.12); color:#dbeafe; border-color: rgba(96,165,250,.35)}
+  .badge-off{background: rgba(245,158,11,.12); color:#fffbeb; border-color: rgba(245,158,11,.35)}
+  .badge-milestone{background: rgba(225,29,72,.12); color:#ffe4e6; border-color: rgba(225,29,72,.35)}
+  .tools{display:flex; gap:10px; margin-top:14px}
+  .btn{
+    border:1px solid var(--ring); background:rgba(255,255,255,.04); color:var(--text);
+    padding:10px 14px; border-radius:10px; cursor:pointer;
+  }
+  .btn:hover{background:rgba(255,255,255,.08)}
+</style>
+  @media print{
+    header{position:static; background:white; color:black}
+    body{background:white; color:black}
+    .card{break-inside: avoid-page; border-color:#ddd; background:white; box-shadow:none}
+    .badge{border-color:#ccc}
+    .grid{grid-template-columns: repeat(2, 1fr)}
+  }
+  .seq{margin-top:18px}
+</style>
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Quba Weekend Intensive — Sep 2025 to Jun 2026</h1>
+    <div class="subtitle">Class weeks, official breaks, and key Islamic/US holidays (meetings removed)</div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--class)"></span> Class Week</span>
+      <span><span class="dot" style="background:var(--milestone)"></span> Exam / Milestone</span>
+      <span><span class="dot" style="background:var(--off)"></span> Off / No Class</span>
+      <span><span class="dot" style="background:var(--holiday)"></span> Holiday</span>
+    </div>
+    <div class="tools">
+      <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+  </div>
+</header>
+<main class="container">
+  <section class="seq">
+    <div class="card">
+      <div class="month">Class Sequence (Sep 2025 – Jun 2026)</div>
+      <div class="seq-list">
+        <div class="item"><div class="date">Mon Sep 1</div><div class="title">Labor Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Fri Sep 5</div><div class="title">Mawlid (Prophet’s Birthday) — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Sep 6</div><div class="title">Week 1 — Orientation & Classes Start <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Sep 13</div><div class="title">Week 2 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Sep 20</div><div class="title">Week 3 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Sep 27</div><div class="title">Week 4 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Oct 4</div><div class="title">Week 5 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Oct 11</div><div class="title">Week 6 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Mon Oct 13</div><div class="title">Columbus Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Oct 18</div><div class="title">Week 7 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Oct 25</div><div class="title">Week 8 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Fri Oct 31</div><div class="title">Halloween <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Nov 1</div><div class="title">Week 9 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sun Nov 2</div><div class="title">Daylight Saving Time Ends <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Tue Nov 4</div><div class="title">Election Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Nov 8</div><div class="title">Week 10 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Tue Nov 11</div><div class="title">Veterans Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Nov 15</div><div class="title">Week 11 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Nov 22</div><div class="title">Week 12 (Mufti Mujib — OFF) <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Thu Nov 27</div><div class="title">Thanksgiving Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Fri Nov 28</div><div class="title">Black Friday <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Nov 29</div><div class="title">NO CLASSES (off for Thanksgiving) <span class="badge badge-off">Off</span></div></div>
+        <div class="item"><div class="date">Sat Dec 6</div><div class="title">Week 13 — Last Day of Classes (Sem 1) <span class="badge badge-milestone">Milestone</span></div></div>
+        <div class="item"><div class="date">Sat Dec 13</div><div class="title">Week 14 — Exam Review <span class="badge badge-milestone">Milestone</span></div></div>
+        <div class="item"><div class="date">Sat Dec 20</div><div class="title">Week 15 — Exam Day / Dawat <span class="badge badge-milestone">Milestone</span></div></div>
+        <div class="item"><div class="date">Thu Dec 25</div><div class="title">Christmas Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">—</div><div class="title"><strong>End of Semester 1</strong></div></div>
+        <div class="item"><div class="date">Thu Jan 1</div><div class="title">New Year’s Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Mon Jan 19</div><div class="title">Martin Luther King Jr. Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Jan 24</div><div class="title">Week 1 — Semester 2 Starts <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Jan 31</div><div class="title">Week 2 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Feb 7</div><div class="title">Week 3 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Feb 14</div><div class="title">Week 4 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Feb 14</div><div class="title">Valentine’s Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Mon Feb 16</div><div class="title">Presidents’ Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Wed Feb 18</div><div class="title">Ramadan Starts — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sun Mar 8</div><div class="title">Daylight Saving Time Starts <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sun Mar 15</div><div class="title">Laylat al‑Qadr <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Fri Mar 20</div><div class="title">Eid al‑Fitr (End of Ramadan) — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Mar 28</div><div class="title">Week 5 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Apr 4</div><div class="title">Week 6 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sun Apr 5</div><div class="title">Easter Sunday <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Mon Apr 6</div><div class="title">Easter Monday <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Apr 11</div><div class="title">Week 7 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Wed Apr 15</div><div class="title">Tax Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Apr 18</div><div class="title">Week 8 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Apr 25</div><div class="title">Week 9 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat May 2</div><div class="title">Week 10 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Tue May 5</div><div class="title">Cinco de Mayo <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat May 9</div><div class="title">Week 11 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sun May 10</div><div class="title">Mother’s Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat May 16</div><div class="title">Week 12 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat May 23</div><div class="title">Week 13 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Mon May 25</div><div class="title">Memorial Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Wed May 27</div><div class="title">Eid al‑Adha — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Jun 6</div><div class="title">Week 14 <span class="badge badge-class">Class</span></div></div>
+        <div class="item"><div class="date">Sat Jun 13</div><div class="title">Week 15 — Exam Review <span class="badge badge-milestone">Milestone</span></div></div>
+        <div class="item"><div class="date">Sun Jun 14</div><div class="title">Flag Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Wed Jun 17</div><div class="title">Muharram Begins — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Fri Jun 19</div><div class="title">Juneteenth <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Jun 20</div><div class="title">Week 16 — Final Exam <span class="badge badge-milestone">Milestone</span></div></div>
+        <div class="item"><div class="date">Sun Jun 21</div><div class="title">Father’s Day <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Fri Jun 26</div><div class="title">Ashura — tentative <span class="badge badge-holiday">Holiday</span></div></div>
+        <div class="item"><div class="date">Sat Jun 27</div><div class="title">Jalsa / Graduation <span class="badge badge-milestone">Milestone</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="grid">
+<div class="card">
+  <div class="month">September 2025</div>
+  <div class="item">    <div class="date">Mon Sep 1</div>    <div class="title">Labor Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Sep 5</div>    <div class="title">Mawlid (Prophet’s Birthday) — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Sep 6</div>    <div class="title">Week 1 — Orientation & Classes Start       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Sep 13</div>    <div class="title">Week 2       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Sep 20</div>    <div class="title">Week 3       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Sep 27</div>    <div class="title">Week 4       <span class="badge badge-class">Class</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">October 2025</div>
+  <div class="item">    <div class="date">Sat Oct 4</div>    <div class="title">Week 5       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Oct 11</div>    <div class="title">Week 6       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Mon Oct 13</div>    <div class="title">Columbus Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Oct 18</div>    <div class="title">Week 7       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Oct 25</div>    <div class="title">Week 8       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Oct 31</div>    <div class="title">Halloween       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">November 2025</div>
+  <div class="item">    <div class="date">Sat Nov 1</div>    <div class="title">Week 9       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun Nov 2</div>    <div class="title">Daylight Saving Time Ends       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Tue Nov 4</div>    <div class="title">Election Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Nov 8</div>    <div class="title">Week 10       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Tue Nov 11</div>    <div class="title">Veterans Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Nov 15</div>    <div class="title">Week 11       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Nov 22</div>    <div class="title">Week 12 (Mufti Mujib — OFF)       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Thu Nov 27</div>    <div class="title">Thanksgiving Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Nov 28</div>    <div class="title">Black Friday       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Nov 29</div>    <div class="title">NO CLASSES (off for Thanksgiving)       <span class="badge badge-off">Off</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">December 2025</div>
+  <div class="item">    <div class="date">Sat Dec 6</div>    <div class="title">Week 13 — Last Day of Classes (Sem 1)       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Dec 13</div>    <div class="title">Week 14 — Exam Review       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Dec 20</div>    <div class="title">Week 15 — Exam Day / Dawat       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+  <div class="item">    <div class="date">Thu Dec 25</div>    <div class="title">Christmas Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">January 2026</div>
+  <div class="item">    <div class="date">Thu Jan 1</div>    <div class="title">New Year’s Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Mon Jan 19</div>    <div class="title">Martin Luther King Jr. Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Jan 24</div>    <div class="title">Week 1 — Semester 2 Starts       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Jan 31</div>    <div class="title">Week 2       <span class="badge badge-class">Class</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">February 2026</div>
+  <div class="item">    <div class="date">Sat Feb 7</div>    <div class="title">Week 3       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Feb 14</div>    <div class="title">Week 4       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Feb 14</div>    <div class="title">Valentine’s Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Mon Feb 16</div>    <div class="title">Presidents’ Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Wed Feb 18</div>    <div class="title">Ramadan Starts — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">March 2026</div>
+  <div class="item">    <div class="date">Sun Mar 8</div>    <div class="title">Daylight Saving Time Starts       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun Mar 15</div>    <div class="title">Laylat al‑Qadr       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Mar 20</div>    <div class="title">Eid al‑Fitr (End of Ramadan) — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Mar 28</div>    <div class="title">Week 5       <span class="badge badge-class">Class</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">April 2026</div>
+  <div class="item">    <div class="date">Sat Apr 4</div>    <div class="title">Week 6       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun Apr 5</div>    <div class="title">Easter Sunday       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Mon Apr 6</div>    <div class="title">Easter Monday       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Apr 11</div>    <div class="title">Week 7       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Wed Apr 15</div>    <div class="title">Tax Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Apr 18</div>    <div class="title">Week 8       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Apr 25</div>    <div class="title">Week 9       <span class="badge badge-class">Class</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">May 2026</div>
+  <div class="item">    <div class="date">Sat May 2</div>    <div class="title">Week 10       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Tue May 5</div>    <div class="title">Cinco de Mayo       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat May 9</div>    <div class="title">Week 11       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun May 10</div>    <div class="title">Mother’s Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat May 16</div>    <div class="title">Week 12       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat May 23</div>    <div class="title">Week 13       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Mon May 25</div>    <div class="title">Memorial Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Wed May 27</div>    <div class="title">Eid al‑Adha — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+</div>
+<div class="card">
+  <div class="month">June 2026</div>
+  <div class="item">    <div class="date">Sat Jun 6</div>    <div class="title">Week 14       <span class="badge badge-class">Class</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Jun 13</div>    <div class="title">Week 15 — Exam Review       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun Jun 14</div>    <div class="title">Flag Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Wed Jun 17</div>    <div class="title">Muharram Begins — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Jun 19</div>    <div class="title">Juneteenth       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Jun 20</div>    <div class="title">Week 16 — Final Exam       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+  <div class="item">    <div class="date">Sun Jun 21</div>    <div class="title">Father’s Day       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Fri Jun 26</div>    <div class="title">Ashura — tentative       <span class="badge badge-holiday">Holiday</span>    </div>  </div>
+  <div class="item">    <div class="date">Sat Jun 27</div>    <div class="title">Jalsa / Graduation       <span class="badge badge-milestone">Milestone</span>    </div>  </div>
+</div>
+  </section>
+</main>
+<footer class="container" style="color:var(--muted); font-size:13px; padding-bottom:40px">
+  * Islamic dates marked “tentative” are subject to moon sighting. This sheet removes all weekly meetings and contact links by design.
+</footer>
+</body>
+</html>
